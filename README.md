@@ -73,6 +73,17 @@ RegisterNumber: 212222230019
 ```
 ### DECODER
 ```
+module encoder (d0,d1,d2,d3,d4,d5,d6,d7,x,y,z);
+input d0,d1,d2,d3,d4,d5,d6,d7;
+output x,y,z;
+or (x,d4,d5,d6,d7);
+or (y,d2,d3,d5,d7);
+or (z,d1,d3,d5,d7);
+endmodule
+
+```
+### ENCODER
+```
 module exp8(a0,a1,a2,y0,y1,y2,y3,y4,y5,y6,y7);
 input a0,a1,a2;
 output y0,y1,y2,y3,y4,y5,y6,y7;
@@ -90,34 +101,18 @@ and (y6,a0,a1,a2bar);
 and (y7,a0,a1,a2);
 endmodule
 ```
-### ENCODER
-```
-module encoder (d0,d1,d2,d3,d4,d5,d6,d7,x,y,z);
-input d0,d1,d2,d3,d4,d5,d6,d7;
-output x,y,z;
-or (x,d4,d5,d6,d7);
-or (y,d2,d3,d5,d7);
-or (z,d1,d3,d5,d7);
-endmodule
-```
 
 ### RTL LOGIC  
-
-![digital exp8 decoder rtl](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/38e14422-ef1e-42f5-97af-5b9e6aad7ec8)
-
 ![exp8 encoder rtf](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/f28c6c82-ccc3-4926-b446-100a49720c64)
 
-
+![digital exp8 decoder rtl](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/38e14422-ef1e-42f5-97af-5b9e6aad7ec8)
 ### TIMING DIGRAMS  
-
-![digital exp8 decoder](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/9bf873c4-41ee-432c-bb35-cce46a4fdf68)
-
 ![digital exp8 encoder](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/57cd5ff4-8e62-4b45-8ee2-b1937be8e6ce)
 
+![digital exp8 decoder](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/9bf873c4-41ee-432c-bb35-cce46a4fdf68)
 ### TRUTH TABLE 
-![decoder truth table](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/f99d0305-e90e-4f01-9b65-f2b1ba83ba4f)
-
 ![encoder truth table](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/0277ee5a-f422-435a-9242-ae5c3f44d2d0)
 
+![decoder truth table](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/f99d0305-e90e-4f01-9b65-f2b1ba83ba4f)
 ### RESULTS 
 Thus the program to desing encoder and decoder is completed.
