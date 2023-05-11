@@ -66,9 +66,11 @@ Step-4: perform RTL LOGIC and get waveform.
 Step-5: End the module.
 
 ### PROGRAM 
+```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by: barathraj b
 RegisterNumber: 212222230019
+```
 ### DECODER
 ```
 module exp8(a0,a1,a2,y0,y1,y2,y3,y4,y5,y6,y7);
@@ -103,7 +105,8 @@ endmodule
 
 ![digital exp8 decoder rtl](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/38e14422-ef1e-42f5-97af-5b9e6aad7ec8)
 
-![digital exp8 encoder](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/162475e6-a1be-4f13-a9cd-278a0da5cdee)
+![exp8 encoder rtf](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/f28c6c82-ccc3-4926-b446-100a49720c64)
+
 
 ### TIMING DIGRAMS  
 
