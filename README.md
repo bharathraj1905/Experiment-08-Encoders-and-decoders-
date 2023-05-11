@@ -71,7 +71,7 @@ Program for Endocers and Decoders  and verify its truth table in quartus using V
 Developed by: barathraj b
 RegisterNumber: 212222230019
 ```
-### DECODER
+### ENCODER
 ```
 module encoder (d0,d1,d2,d3,d4,d5,d6,d7,x,y,z);
 input d0,d1,d2,d3,d4,d5,d6,d7;
@@ -82,7 +82,7 @@ or (z,d1,d3,d5,d7);
 endmodule
 
 ```
-### ENCODER
+### DECODER
 ```
 module exp8(a0,a1,a2,y0,y1,y2,y3,y4,y5,y6,y7);
 input a0,a1,a2;
