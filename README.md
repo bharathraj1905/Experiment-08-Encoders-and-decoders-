@@ -111,7 +111,8 @@ endmodule
 
 ![digital exp8 decoder](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/9bf873c4-41ee-432c-bb35-cce46a4fdf68)
 ### TRUTH TABLE 
-![encoder truth table](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/0277ee5a-f422-435a-9242-ae5c3f44d2d0)
+![truth 8 1](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/03cdff6c-de6d-44f3-ac7f-69bbacda569f)
+
 
 ![decoder truth table](https://github.com/bharathraj1905/Experiment-08-Encoders-and-decoders-/assets/121490575/f99d0305-e90e-4f01-9b65-f2b1ba83ba4f)
 ### RESULTS 
